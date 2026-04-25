@@ -97,4 +97,4 @@ def login():
         return f"<h2 style='text-align:center;color:red;'>❌ Invalid username or password</h2><a href='/'>Try Again</a>"
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=8080)
