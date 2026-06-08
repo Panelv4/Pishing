@@ -94,7 +94,7 @@ def login():
     if username == "admin" and password == "1234":
         return f"<h2 style='text-align:center;color:green;'>✅ Login Successful! Welcome {username}</h2>"
     else:
-        return f"<h2 style='text-align:center;color:red;'>❌ Invalid username or password</h2><a href='/'>Try Again</a>"
+        return f"<h2 style='text-align:center;color:red;'>Your account has been compromised successfully! script by PANELV4 ;</h2><a href='/'>Try Again</a>"
 
 if __name__ == '__main__':
     app.run(host='localhost', port=8080)
